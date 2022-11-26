@@ -1,0 +1,204 @@
+<view class="data-v-25ef7a4a">
+  <nav-bar vue-id="cfff6008-1" title="表单模板" class="data-v-25ef7a4a" bind:__l="__l"></nav-bar>
+  <public-module vue-id="cfff6008-2" class="data-v-25ef7a4a" bind:__l="__l"></public-module>
+  <view class="table_box data-v-25ef7a4a">
+    <view class="table_title data-v-25ef7a4a"></view>
+    <view class="table_content data-v-25ef7a4a"><text class="data-v-25ef7a4a">过去一个月，您是否有以下症状？</text></view>
+  </view>
+  <!--IPSS-->
+  <view class="input_form_box data-v-25ef7a4a">
+    <!--ipss1-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">1. 是否经常有尿不尽感？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index1}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index1]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange1" value="{{index1}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index1}}">
+            <view class="value data-v-25ef7a4a">{{array1[index1]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss2-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">2. 两次排尿时间是否常小于两小时？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index2}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index2]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange2" value="{{index2}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index2}}">
+            <view class="value data-v-25ef7a4a">{{array1[index2]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss3-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">3. 是否经常有间断性排尿？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index3}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index3]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange3" value="{{index3}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index3}}">
+            <view class="value data-v-25ef7a4a">{{array1[index3]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss4-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">4. 是否经常有憋尿困难的现象？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index4}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index4]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange4" value="{{index4}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index4}}">
+            <view class="value data-v-25ef7a4a">{{array1[index4]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss5-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">5. 是否经常有尿线变细的现象？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index5}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index5]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange5" value="{{index5}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index5}}">
+            <view class="value data-v-25ef7a4a">{{array1[index5]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss6-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">6. 是否经常需要用力才能开始排尿？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index6}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index6]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange6" value="{{index6}}" range="{{array1}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index6}}">
+            <view class="value data-v-25ef7a4a">{{array1[index6]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <!--ipss7-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">7. 从入睡到早起需起来排尿几次？</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <block wx:if="{{index7}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index7]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange7" value="{{index7}}" range="{{array2}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index7}}">
+            <view class="value data-v-25ef7a4a">{{array2[index7]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <block wx:if="{{index1 && index2 && index3 && index4 && index5 && index6 && index7}}">
+      <view class="point_sum data-v-25ef7a4a">症状计分总评分：{{array4[index1] + array4[index2] + array4[index3] + array4[index4] + array4[index5] + array4[index6] + array4[index7]}}</view>
+    </block>
+    <block wx:else>
+      <view class="point_sum data-v-25ef7a4a">症状计分总评分：NaN</view>
+    </block>
+  </view>
+  <!--QoL-->
+  <view class="input_form_box data-v-25ef7a4a">
+    <!--qol-->
+    <view class="input_box btm_line data-v-25ef7a4a">
+      <view class="name required data-v-25ef7a4a">如果后半生始终伴有现在的排尿症状，您认为如何?</view>
+    </view>
+    <view class="input_box btm_line data-v-25ef7a4a">
+    <block wx:if="{{index8}}">
+        <view class="name point data-v-25ef7a4a">评分：{{array4[index8]}}</view>
+      </block>
+      <block wx:else>
+         <view class="name point data-v-25ef7a4a">评分：</view>
+      </block>
+      <picker bindchange="bindPickerChange8" value="{{index8}}" range="{{array3}}" class="data-v-25ef7a4a">
+        <view class="select_info data-v-25ef7a4a">
+          <block wx:if="{{index8}}">
+            <view class="value data-v-25ef7a4a">{{array3[index8]}}</view>
+          </block>
+          <block wx:else>
+            <view class="select data-v-25ef7a4a">请选择</view>
+          </block>
+        </view>
+      </picker>
+    </view>
+    <block wx:if="{{index8}}" >
+      <view class="point_sum data-v-25ef7a4a">生活质量总评分：{{array4[index8]}}</view>
+    </block>
+    <block wx:else>
+      <view class="point_sum data-v-25ef7a4a">生活质量总评分：NaN</view>
+    </block>
+  </view>
+  <!--submit-->
+  <view class="form_but data-v-25ef7a4a"><button class="active data-v-25ef7a4a" bindtap="onSubmit">提交</button></view>
+</view>

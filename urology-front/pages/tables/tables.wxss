@@ -1,0 +1,15 @@
+/* pages/tables/tables.wxss */
+.selfTables {
+  margin: 50rpx;
+  padding: 20rpx 30;
+  font-size: 30rpx;
+  color: #9B9B9B;
+}
+
+button {
+  font-size: 40rpx;
+  margin-top: 30rpx;
+}
+button::after {
+  border: solid;
+}

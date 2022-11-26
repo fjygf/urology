@@ -1,0 +1,433 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.input_form_box .input_title.data-v-25ef7a4a {
+  font-size: 32rpx;
+  color: #333333;
+  padding: 30rpx;
+  font-weight: bold;
+}
+.input_form_box .point_sum.data-v-25ef7a4a {
+  font-size: 32rpx;
+  color: #f73333;
+  padding: 30rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.input_form_box .input_title.required.data-v-25ef7a4a::before {
+  content: '*';
+  font-size: 30rpx;
+  color: #f73333;
+}
+.input_form_box .input_box.data-v-25ef7a4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 30rpx;
+  background-color: #fff;
+}
+.input_form_box .input_box.line.data-v-25ef7a4a {
+  border-top: 1rpx solid #f7f7f7;
+}
+.input_form_box .input_box.btm_line.data-v-25ef7a4a {
+  border-bottom: 1rpx solid #f7f7f7;
+}
+.input_form_box .input_box .name.data-v-25ef7a4a {
+  font-size: 30rpx;
+  min-width: 120rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  padding: 30rpx 0;
+}
+.input_form_box .input_box .name.point.data-v-25ef7a4a {
+  font-size: 30rpx;
+  min-width: 120rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  padding: 30rpx 0;
+  color: #f73333;
+}
+.input_form_box .input_box .name.required.data-v-25ef7a4a::before {
+  content: '*';
+  font-size: 30rpx;
+  color: #f73333;
+}
+.input_form_box .input_box .prompt.data-v-25ef7a4a {
+  width: 100%;
+  padding-bottom: 20rpx;
+  font-size: 28rpx;
+  color: #999999;
+  -webkit-transform: translateY(-10rpx);
+          transform: translateY(-10rpx);
+}
+.input_form_box .input_box picker.data-v-25ef7a4a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.input_form_box .input_info.data-v-25ef7a4a {
+  padding: 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.input_form_box .input_info > text.data-v-25ef7a4a {
+  font-size: 24rpx;
+  color: #555555;
+  margin-left: 10rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.input_form_box .input_info input.data-v-25ef7a4a {
+  width: 100%;
+  text-align: right;
+  font-size: 30rpx;
+}
+.input_form_box .input_info button.data-v-25ef7a4a {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  min-width: 146rpx;
+  padding: 0 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #ea552d;
+  border-radius: 8rpx;
+  font-size: 24rpx;
+  color: #ffffff;
+  margin-left: 20rpx;
+}
+.input_form_box .switch.data-v-25ef7a4a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.input_form_box .switch.data-v-25ef7a4a::after {
+  content: "";
+  background-image: url("https://qn.kemean.cn/upload/201908/05/5f85ccc4de404cafb30b15dedef41e8b");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 108rpx;
+  height: 58rpx;
+}
+.input_form_box .switch.active.data-v-25ef7a4a::after {
+  background-image: url("https://qn.kemean.cn/upload/201908/05/eef318fa5c9f4692a1bd6ef6edd9be10");
+}
+.input_form_box .radio_box.data-v-25ef7a4a {
+  padding: 30rpx 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.input_form_box .radio_box view.data-v-25ef7a4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  color: #333333;
+  margin-left: 90rpx;
+}
+.input_form_box .radio_box view.data-v-25ef7a4a:first-child {
+  margin-left: 0;
+}
+.input_form_box .radio_box view.data-v-25ef7a4a::before {
+  content: '';
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 15rpx;
+  border: 2rpx solid #eee;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.input_form_box .radio_box view.active.data-v-25ef7a4a::before {
+  border: 12rpx solid #ea552d;
+}
+.input_form_box .select_info.data-v-25ef7a4a {
+  padding: 30rpx 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.input_form_box .select_info .value.data-v-25ef7a4a {
+  font-size: 30rpx;
+  text-align: right;
+  color: #f73333;
+}
+.input_form_box .select_info .select.data-v-25ef7a4a {
+  font-size: 30rpx;
+  color: #999999;
+}
+.input_form_box .select_info .head_img.data-v-25ef7a4a {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10rpx;
+}
+.input_form_box .select_info.data-v-25ef7a4a::after {
+  content: '';
+  background-image: url("http://qn.kemean.cn/upload/201907/23/me_lise_more.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  width: 15rpx;
+  height: 26rpx;
+  margin-left: 20rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.input_form_box .upload_info.data-v-25ef7a4a {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-bottom: 10rpx;
+}
+.input_form_box .upload_info .upload_img.data-v-25ef7a4a {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: #ffffff;
+  border-radius: 4rpx;
+  margin-right: 16rpx;
+  margin-bottom: 16rpx;
+  overflow: hidden;
+  position: relative;
+}
+.input_form_box .upload_info .upload_img.data-v-25ef7a4a:nth-child(3n) {
+  margin-right: 0;
+}
+.input_form_box .upload_info .upload_img image.data-v-25ef7a4a {
+  width: 100%;
+  height: 100%;
+}
+.input_form_box .upload_info .upload_img .delete.data-v-25ef7a4a {
+  position: absolute;
+  top: 0rpx;
+  right: 0rpx;
+  width: 44rpx;
+  height: 44rpx;
+  background-image: url("https://qn.kemean.cn/upload/201908/05/df40b98b77fc4c42a5e0327c62975e29");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.input_form_box .upload_info .upload_img.upload.data-v-25ef7a4a {
+  border: 1rpx dashed #b2b2b2;
+  background-image: url("https://qn.kemean.cn/upload/201908/05/d68df2873cd04f18a70104e340a14884");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+}
+.input_form_box .textarea_info.data-v-25ef7a4a {
+  width: 100%;
+  padding-bottom: 30rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.input_form_box .textarea_info textarea.data-v-25ef7a4a {
+  width: 100%;
+  height: 154rpx;
+  font-size: 30rpx;
+  line-height: 150%;
+}
+.protocol.data-v-25ef7a4a {
+  margin-top: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  color: #666;
+}
+.protocol text.data-v-25ef7a4a {
+  color: #ea552d;
+}
+.protocol view.data-v-25ef7a4a {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQjg4RTAwNUVFRjUxMUU4ODRFNUMxQzhEQjYxMzBFOCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQjg4RTAwNkVFRjUxMUU4ODRFNUMxQzhEQjYxMzBFOCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFCODhFMDAzRUVGNTExRTg4NEU1QzFDOERCNjEzMEU4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjFCODhFMDA0RUVGNTExRTg4NEU1QzFDOERCNjEzMEU4Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+BdCNcwAAAopJREFUeNq8l1+IDVEcx+eOi2xZwioKJUpJ0QoP/rSUiJJc5c8TG5furkIrSRGx5cWLf4t4IFF28eBPiBS1LPEg8XQ9XHURtYu1Ka7Pr75TY9px7969M7/6dObMnTmfOefOOec3ic5Ts50SYzHMh1qYCuN0Pg+v4SU8qU633yilsUQRsQu7YCuMD/z2CwowOHD+C5yEIzzEt/81HBbLIAvNkj6C7TAdRkKVGKYR2AJ39NteyHW1zFnX1x4fgj06vmpPDx29XUiv/qkjm0LRBBt16jTXpEvp8TGfdD2sDpOGPMhbqNeI/YDNPExbMfF+yMB3mAaXnDID+S0K630OViJvCRPbG7tPxzP1pvYrkOc0CzrV8zW9ia+pXAXvnAoF8k+aihYXkVf5xY0wAu5Cm1PhQP6M4jwMgAN+8UGVaSe62KZyJ71Omnih5uILeB+VlV7bC3vF+ztNvFSVs0700aoy5Wolsrgfg/iBylkmnqHKx6itDLet4922BLtaW39rlYkj8v63uuDEFwVP3AVJGBKTeLQnfqUTo6I2Mn+HUhh5V5mDRV0MvfUcHSa+p0p9DOIV3r5g4pvQA3O98Y9omAdRbFD1suvLOLwkIKo4bBkPnGM+//SLe5RtLIigt5Ntc1C1KTiP1+rYMoeaCkoH+pbjBnr7NZgIXIcTyhyfw5gKSK2tp8pSW5EeD8u5MtpB7MI3sKgf0lq1YXvBY6SpYllmSlvkcA2RvXAT+yAcC80atQnq6bzgdcmQ+zdBu4Y+Iy4oNXoIHwKyGiUUdYEsZgfSo+V8wliDu/UFkfCd79Y2+kfXVAfuO2NfIEiz5X47eWGp0RJYbps4TAr8TVkl/bdtQUL4uViDfwUYAO2csuKuv0dJAAAAAElFTkSuQmCC);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 34rpx;
+  height: 34rpx;
+  margin-right: 10rpx;
+}
+.protocol view.active.data-v-25ef7a4a {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQyIDc5LjE2MDkyNCwgMjAxNy8wNy8xMy0wMTowNjozOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQ0REOTk4REVFRjUxMUU4QkJBMkI2MTkzNDFDODdGRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQ0REOTk4RUVFRjUxMUU4QkJBMkI2MTkzNDFDODdGRiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjFDREQ5OThCRUVGNTExRThCQkEyQjYxOTM0MUM4N0ZGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjFDREQ5OThDRUVGNTExRThCQkEyQjYxOTM0MUM4N0ZGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+FxQRygAAA0lJREFUeNqsl31ojVEcx++9jMw2wkZriCilvLTMhDF/yFvtj11l+IfFvMwfrIlRRIgUf5j3t0JN7V6JjbymzNslL/nDlCaRa2YxM0u4vj99nzr79dzdZ/c+v/p07nme85zvOb/zO+f8rvfb4YkehzYT5IFsMBoM5vMweAmegrq0kgcXnXTmjSHsA+vBSjBEvfsFIqCnev4FHAJ7MIjvnXUczeaCBrCLonfAWjAO9AfJpA89sAJc5bvN4H3LkdyFXZ3xDlDB39UyehCya4hZdahDbBSKcrCUj46iTYmTGR8wRBeB+dFEowzkFSimx36A5RhMMNaMt4ItoBVMYtBoS6VrB3LgjaAeYk26IQSzUNwHWXrmpnAe11FM3FWv+hkD5MMFoJ96JzM7D06g83tKPAPFa8ZCEd5XaVdfYFloIyrB8hysshEV6801rYPQXuX6Rm5FsbN4n2wKr2GH14Bej9Ngu8e5laHzS0r8EYpToBvYZrr6K10xDLw1vqlghMdjHdYUg0lBYe3rJJnxDIo+UaIjExD1MJonGLNuZRz8X04Rns3KcfXhRk/itlvVAyz9Pp5EYjeMBimM3kRtOmY9wKjfYpkjwuNZ+WQ0GAt6uSDsNSJa3C3neJscwT6erX+4Fy0b5HHPdF9hcztFbEbqlum+IpZwC+iuXNvkonCzqmdYws/4wAyCF+C3S8I3jb2cyrM+7GPmIJavRhl0QfQhAuqdUbc0QiJ8nZVi9dFOF4Q3qXqBdS+IcA1oB1Ms/9PkUtifgGgQszXd3APFElarfEbGYSUBpkmqcyUO0RBEC208KBF+Eu9+msLtzDamqQ/mgMouiJ5DxznqTpZzv4zVcr2Pi/i7FqSrzkrl+AOXmV3amcRKAUQXK9Ek4zguxftmu9Snkpe9RGIu+GgjkAkm80Ty8agV176xSX3k0r/LYzmANv7OssxqZiFyR/vNfegkyzREs3kbDRVxtJsaK8v084rsSxdJwA13usAQzASSiz+maECLenhU2tkyIFM5CFaTM0yNboMPSiydCUU+E0LL1kF0Xzx/YaTDDdxW5mHfxrX9yzZp6rtj8g8Eog3x/neyTFKjWWCeXOJghFqmBib9sudrIPg5Vof/BBgAgz35B16/BSQAAAAASUVORK5CYII=);
+}
+.form_but.data-v-25ef7a4a {
+  margin-top: 80rpx;
+  padding: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.form_but button.data-v-25ef7a4a {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 88rpx;
+  background-color: #f0f0f0;
+  border-radius: 8rpx;
+  line-height: 88rpx;
+  font-size: 34rpx;
+  color: #cccccc;
+}
+.form_but button.active.data-v-25ef7a4a {
+  background-image: -webkit-linear-gradient(left, #ea552d 0%, #f19837 100%);
+  background-image: linear-gradient(90deg, #ea552d 0%, #f19837 100%);
+  color: #ffffff;
+}
+.form_but button.data-v-25ef7a4a::after {
+  border: none;
+}
+.table_box.data-v-25ef7a4a {
+  background-color: #FFFFFF;
+}
+.table_box .table_title.data-v-25ef7a4a {
+  padding: 0rpx 20rpx;
+  font-size: 30rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ea552d;
+}
+.table_box .table_head.data-v-25ef7a4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-content: center;
+          align-content: center;
+  background-color: rgba(234, 85, 45, 0.35);
+}
+.table_box .table_head text.data-v-25ef7a4a {
+  padding: 15rpx 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+  border-right: 2rpx solid rgba(234, 85, 45, 0.2);
+}
+.table_box .table_head text.data-v-25ef7a4a:last-child {
+  border-right: 0;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+.table_box .table_content.data-v-25ef7a4a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-content: center;
+          align-content: center;
+  border-top: 2rpx solid rgba(234, 85, 45, 0.2);
+  background-color: rgba(234, 85, 45, 0.2);
+}
+.table_box .table_content text.data-v-25ef7a4a {
+  padding: 15rpx 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 28rpx;
+  color: #999;
+  border-right: 2rpx solid rgba(234, 85, 45, 0.3);
+}
+.table_box .table_content text.data-v-25ef7a4a:last-child {
+  border-right: 0;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2;
+          flex: 2;
+}
+

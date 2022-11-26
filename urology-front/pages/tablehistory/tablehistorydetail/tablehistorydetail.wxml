@@ -1,0 +1,45 @@
+<!--pages/tablehistory/tablehistorydetail/tablehistorydetail.wxml-->
+<view class="item-box">
+  <view class="items">
+  <view wx:for="{{list}}"  wx:key="{{index}}">
+  <view  data-index="{{index}}">
+    <view  class="item">
+      <view class="inner txt">
+        <span class="item-data-ques">
+          {{item.ques}}
+        </span>
+      </view>
+    </view>
+    <view class="item">
+      <view class="inner txt">
+        <span class="item-data-ans">
+          <i class="anspace">回答：{{item.ans}}</i>
+        </span>
+        <span class="item-data-point">
+          <i class="anspace">评分：{{item.point}}</i>
+        </span>
+      </view>
+    </view>
+  </view>
+  </view>
+  </view>
+  <view  class="item">
+      <view class="inner txt">
+        <span class="item-data-sum">
+          <i class="anspace">
+            症状计分总评分：{{ipss_point_sum}}
+          </i>
+        </span>
+      </view>
+    </view>
+    <view  class="item">
+      <view class="inner txt">
+        <span class="item-data-sum">
+          <i class="anspace">
+            生活质量总评分：{{qol_point_sum}}
+          </i>
+        </span>
+      </view>
+    </view>
+  <text class="time">表单{{id + 1}} {{create_date}}</text>
+</view>

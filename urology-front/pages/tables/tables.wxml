@@ -1,0 +1,7 @@
+<view class="container">
+
+  <view class="selfTables" wx:for="{{selfTableList}}">
+    <button class="weui-btn weui-btn_primary" bindtap="f_{{item.id}}"> {{item.name}} </button>
+  </view>
+
+</view>

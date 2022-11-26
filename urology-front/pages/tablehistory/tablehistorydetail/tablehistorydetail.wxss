@@ -1,0 +1,75 @@
+/* pages/tablehistory/tablehistorydetail/tablehistorydetail.wxss */
+.item-box{
+  width: 700rpx;
+  margin: 0 auto;
+  padding:40rpx 0;
+  font-size: 30rpx;
+}
+
+.items{
+  width: 100%;
+}
+
+.item{
+  position: relative;
+  border-top: 2rpx solid rgb(248, 244, 244);
+  border-bottom: 2rpx solid rgb(248, 244, 244);
+  /*height: 106rpx;
+  line-height: 120rpx;*/
+  height: 79.5rpx;
+  line-height: 90rpx;
+  overflow: hidden;
+}
+
+.inner.txt{
+  background-color: #fff;
+  width: 100%;
+  z-index: 5;
+  transition: left 0.2s ease-in-out;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.item-data-ques{
+width: 100%;
+display: inline-block;
+background: #eee;
+text-align: left;
+}
+
+.item-data-ans{
+ display: inline-block;
+ width: 50%;
+ text-align: left;
+ padding-left: 30rpx;
+}
+
+.item-data-point{
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+ }
+
+ .item-data-sum{
+  width: 100%;
+  display: inline-block;
+  background: #eee;
+  text-align: left;
+  padding-left: 225rpx; 
+  }
+
+.anspace{
+color: #f73333;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30rpx;
+  margin: 50rpx 50rpx 50rpx;
+  color: #9B9B9B;
+}

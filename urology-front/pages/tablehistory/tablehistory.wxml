@@ -1,0 +1,22 @@
+<!--pages/tablehistory/tablehistory.wxml-->
+<view class="container">
+  <block wx:if="{{ dates.length }}">
+    <block wx:for="{{ dates }}" wx:key="index">
+      <view class="date">
+        {{ item }}
+      </view>
+      <block wx:for="{{ groupedHistory[item] }}" wx:key="index">
+        <view class="history-item">
+          <view class="create">提交第{{item.pos + 1}}个表单</view>
+          <button class="button" bindtap="click" data-id="{{item.pos}}"> 表单详情 </button>
+        </view>
+      </block>
+    </block>
+  </block>
+  <block wx:else>
+    <view class="empty">
+      <text class="title">暂无历史数据</text>
+      <text class="content">请您前往「自测表」填写前列自测表~</text>
+    </view>
+  </block>
+</view>

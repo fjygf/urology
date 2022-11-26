@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  margin: 50rpx 0;
+  padding: 0 10rpx;
+  font-size: 28rpx;
+  color: yellow;
+}
+
+.selectbox {
+  padding: 20rpx;
+  background-color:red;
+}
+.picker {
+  font-size: 50rpx;
+}

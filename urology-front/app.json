@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/index/index",
+    "pages/history/history",
+    "pages/detail/detail",
+    "pages/user/user",
+    "pages/setting/setting",
+    "pages/tables/tables",
+    "pages/tables/ipss/ipss",
+    "pages/tables/ipss_test/ipss_test",
+    "pages/tablehistory/tablehistory",
+    "pages/tablehistory/tablehistorydetail/tablehistorydetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7ED321",
+    "navigationBarTitleText": "2dos",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "selectedColor": "#7ED321",
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tables/tables",
+        "text": "自测表",
+        "iconPath": "assets/todo.png",
+        "selectedIconPath": "assets/todo-active.png"
+      },
+      {
+        "pagePath": "pages/tablehistory/tablehistory",
+        "text": "表单历史",
+        "iconPath": "assets/history.png",
+        "selectedIconPath": "assets/history-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "assets/me.png",
+        "selectedIconPath": "assets/me-active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,49 @@
+/* pages/tablehistory/tablehistory.wxss */
+.history-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #DDD;
+}
+
+.create {
+  font-size: 30rpx;
+  padding: 20rpx 0;
+  color: #9B9B9B;
+}
+
+.date {
+  font-size: 30rpx;
+  border-left: 10rpx solid #7ED321;
+  padding-left: 10rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty .title {
+  font-size: 60rpx;
+  margin: 200rpx 50rpx 50rpx;
+  color: #9B9B9B;
+}
+
+.empty .content {
+  color: #DDD;
+  text-align: center;
+}
+
+button {
+  margin-right:10rpx;
+  font-size:30rpx;
+  text-align:center;
+  color:#000000;
+  background-color:#f8f8f8;
+}
+button::after {
+  border: solid;
+}
